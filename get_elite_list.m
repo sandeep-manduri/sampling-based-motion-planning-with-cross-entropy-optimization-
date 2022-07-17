@@ -2,7 +2,6 @@ function [cur_cost,points] = get_elite_list(path_js,num,costs)
 [out,idx] = sort(costs);
 pointsx = [];
 pointsy = [];
-num
 idx(num);
 cur_cost = costs(idx(1));
 for i = 1:length(num)
