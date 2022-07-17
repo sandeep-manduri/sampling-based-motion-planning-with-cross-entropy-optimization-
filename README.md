@@ -11,4 +11,4 @@ getting optimized sampling distribution for RRT* using GMMs
 
 ** get_elite_list.m  getting elite training sample data
 
-** Elite trajectories iterative samples
+** Sampled trajectories for 1st & 6th iteration as images
