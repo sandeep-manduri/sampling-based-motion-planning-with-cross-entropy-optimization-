@@ -1,7 +1,7 @@
 # sampling-based-motion-planning-with-cross-entropy-optimization-
 getting optimized sampling distribution for RRT* using GMMs
 
-** we can see problem scenario from 
+** we can see problem scenario from problem scenario pdf
 
 ** execute main.m 
 
