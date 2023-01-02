@@ -12,3 +12,5 @@ getting optimized sampling distribution for RRT* using GMMs
 ** get_elite_list.m  getting elite training sample data
 
 ** Sampled trajectories for 1st & 6th iteration as images
+
+** original paper can be found at https://journals.sagepub.com/doi/epdf/10.1177/0278364912444543
