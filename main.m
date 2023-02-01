@@ -8,7 +8,9 @@ par.a2 = 0.5;
 
 %% Problem setup.
 
-qinit = [0.8 -1];
+qinit = [0.8 -1]; 78 lines (66 sloc) 1.94 KB
+clear all;close all;clc
+format long;
 qgoal = [-0.8 0];
 
 enable_obstacle = true;
@@ -35,7 +37,7 @@ num_traj = 500;
 path_js = [];
 costs = [];
 alphas = [0.5,0.3,0.2];
-mus = [0.3,0.1;0.4,0.3:0.1,0.7]; % 3 component GMM mean vectors initialised to random 
+mus = [0.3,0.1;0.4,0.3;0.1,0.7]; % 3 component GMM mean vectors initialised to random 
 
 for i1 = 1:3
    sigmas(:, :, i1) = eye(2); % 3 covariance matrices randomly initialised
