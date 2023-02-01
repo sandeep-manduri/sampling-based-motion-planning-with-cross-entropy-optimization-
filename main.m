@@ -62,7 +62,7 @@ for j = 1:6
     train = randsample(1:length(nw_eef),10);
     path_js = [path_js;[nw_path(:,train)]];
     end
-    exportgraphics(ax,sprintf('zsampled trajs 2 comps %d.jpg',j))
+    exportgraphics(ax,sprintf('zsampled trajs 3 comps %d.jpg',j))
     hold off
     cla reset
     length(costs);
